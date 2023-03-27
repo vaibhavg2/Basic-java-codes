@@ -1,0 +1,68 @@
+import java.util.Scanner;
+
+class Que3
+{
+	public static void main(String[]args)
+	{
+		int ch;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the operation choice you want to perform :\n");
+		System.out.println("1.Odd or Even\n2.Minor major or senior\n3.Largest of two no.");
+		ch = sc.nextInt();
+		
+		switch(ch)
+		{
+			case 1:
+					System.out.println("Enter number :");
+					int x;
+					x = sc.nextInt();
+					if(x%2==0)
+					{
+						System.out.println("Even number.");
+					}
+					else
+					{
+						System.out.println("Odd number.");
+					}
+					break;
+			case 2:
+					System.out.println("Enter age :");
+					x = sc.nextInt();
+					if(x<18)
+					{
+						System.out.println("You're Minor.");
+					}
+					else if (x>=18 && x<60)
+					{
+						System.out.println("You're major");
+					}
+					else 
+					{
+						System.out.println("You're senior citizen.");
+					}
+					break;
+			case 3:
+					int y;
+					System.out.println("Enter two number :");
+					x = sc.nextInt();
+					y = sc.nextInt();
+					if(x>y)
+					{
+						System.out.println(x+" is greater");
+					}
+					else if(y>x)
+					{
+						System.out.println(y+" is greater");
+					}
+					else
+					{
+						System.out.println("Both are equal.");
+					}
+					break;
+
+			default :
+					System.out.println("Invalid Entry");
+		}
+
+	}
+}

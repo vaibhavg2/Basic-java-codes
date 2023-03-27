@@ -1,0 +1,19 @@
+============================= if else ============================
+
+1.write a program scan two numbers pront largest number
+2.write aa program scan year print year is leap year or noot
+3.write a program scan age of a person and print person is eligible for voting or not 
+4.write a program scan age and print person is major or minor or senior citizen
+5.write a program scan a number which between 500 to 750
+
+
+7.write aprogram print marksheet of student with grade.
+
+============================= switch =============================
+
+1. write a menu driven program (+-*/%)
+2. write a program scan a character and print characte is vowel or not
+3. write a menu driven program
+	a. odd/even
+	b. age minor major or senior
+	c. largest of two number 

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+class Que4
+{
+	public static void main(String[]args)
+	{   
+	    System.out.println("Enter age :");
+		int x;
+		Scanner sc=new Scanner(System.in);
+		x = sc.nextInt();
+		if(x<18)
+		{
+			System.out.println("You're Minor.");
+		}
+		else if (x>=18 && x<60)
+		{
+			System.out.println("You're major");
+		}
+		else 
+		{
+			System.out.println("You're senior citizen.");
+		}
+			
+	}
+}

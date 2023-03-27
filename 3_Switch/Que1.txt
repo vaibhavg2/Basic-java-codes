@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+class Que1
+{
+	public static void main(String[]args)
+	{
+		int ch,x,y;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the operation choice you want to perform :");
+		System.out.println("\n1.addition\n2.subtraction\n3.multiplication\n4.division");
+		ch = sc.nextInt();
+		System.out.println("Enter the two numbers :");
+		x = sc.nextInt();
+		y = sc.nextInt();
+		
+		
+		switch(ch)
+		{
+			case 1:
+					System.out.println("Addition = "+(x+y));
+					break;
+			case 2:
+					System.out.println("Substraction = "+(x-y));
+					break;
+			case 3:
+					System.out.println("Multiplication = "+(x*y));
+					break;
+			case 4:
+					System.out.println("Division = "+(x/y));
+					break;
+			default :
+					System.out.println("Invalid Entry");
+		}
+
+	}
+}

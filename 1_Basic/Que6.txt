@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class Que6
+{
+	public static void main(String[]args)
+	{
+		int bNumber,q;
+		float rate,discount,amt,total;
+		char productName;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter bill number :");
+		bNumber = sc.nextInt();
+// 		System.out.println("Enter product name :");
+// 		productName = sc.next();
+		System.out.println("Enter rate of product :");
+		rate = sc.nextInt();
+		System.out.println("Enter quantity number :");
+		q = sc.nextInt();
+		total = (rate*q);
+		amt = (rate*q)/10;
+		System.out.println("Bill number is : "+bNumber+"  Discount :"+amt+" Net amount = "+(total-amt));
+	}
+}

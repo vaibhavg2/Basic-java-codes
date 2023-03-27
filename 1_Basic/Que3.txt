@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+class Que3
+{
+	public static void main(String[]args)
+	{
+		Float p,r,n,si,amt;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter principle :");
+		p = sc.nextFloat();
+		System.out.println("Enter rate :");
+		r = sc.nextFloat();
+		System.out.println("Enter duration :");
+		n = sc.nextFloat();
+		si = ((p*r*n)/100);
+		amt = p + si;
+		System.out.println("Simple interest is : "+ si);
+		System.out.println("Amount is : "+ amt);
+	}
+}	

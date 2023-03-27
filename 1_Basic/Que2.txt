@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+class Que2
+{
+	public static void main(String[]args)
+	{
+		int x;
+		System.out.println("Enter a number :");
+		Scanner sc=new Scanner(System.in);
+		x = sc.nextInt();
+		System.out.println("Square of number is : "+ (x*x));
+		System.out.println("Cube of number is : "+ (x*x*x));
+	}
+}
